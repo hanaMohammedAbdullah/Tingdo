@@ -1,0 +1,141 @@
+body{
+    text-align: center;
+}
+/*title section*/
+.title-se{
+    margin-left: 3.75rem !important;
+    margin-top: 2rem;
+}
+#title .container-fluid{
+    padding: 2% .75% 14%;
+}
+.text-b{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    color: black;
+}
+#title{
+    background-color: #ff4c68;
+}
+.title-text{
+    text-decoration: solid;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/*   navbar section */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Download-Button */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.ms-auto{
+    margin-left: 525px;
+    margin-right: 100px;
+}
+/*   title image */
+.title-image{
+  width: 60%;
+}
+@media  (min-width: 991px){
+    #title{
+        text-align: left;
+    }
+    .title-image{ 
+        width: 30%;
+    position:absolute;
+    transform: rotate(25deg);
+}
+}
+/* feature */
+#features{
+    color: #8f8f8f;
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff; 
+
+}
+.col-lg-4{
+   margin-bottom: 3%; 
+   
+}
+.iconfav{
+    font-size: xxx-large;
+    padding: 5%;
+    color: #ef8172;
+  margin-bottom: .78rem;
+    
+    
+}
+.iconfav:hover{
+    color: #ff4c68;
+}
+/* Testmonial section */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 3rem;
+    margin: 5% 4%;
+}
+/*press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+.press-sc{
+    
+    width: 15%;
+    margin: 10px 20px 50px;
+
+}
+/*Pricing section */
+#pricing{
+padding: 7.2%;
+}
+.col-pricing{
+    padding: 3% 2%;
+}
+/*section aca */
+#cta{
+    background-color:#ff4c68 ;
+    padding:8%;
+}
+.final-part{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    width: 50%;
+   margin: auto;
+}
+/*fotter id*/
+#footer{
+    padding-top:7rem;
+}
+.copy{
+    color: grey;
+    font-size: small;
+}
+.iconfavv{
+    margin: 1rem;
+}
